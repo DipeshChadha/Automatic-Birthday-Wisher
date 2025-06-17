@@ -18,7 +18,8 @@ def sendEmail(to, sub, msg):
  
 if __name__ == "__main__":
      
-    df = pd.read_excel("D:/project mini python/Book1.xlsx")
+    df = pd.read_excel("Book1.xlsx")
+
     #print(df)
     today = datetime.datetime.now().strftime("%d-%m")
     yearNow = datetime.datetime.now().strftime("%Y")
